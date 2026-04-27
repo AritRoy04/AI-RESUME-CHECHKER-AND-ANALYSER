@@ -4,7 +4,7 @@ import PyPDF2
 import docx
 
 # OpenAI API Key (Replace with your actual API key)
-OPENAI_API_KEY = "AIzaSyAusOu3d3S0PItX28YKbbGfzAdS8Q5kgRk"
+OPENAI_API_KEY = "API"
 client = openai.OpenAI(api_key=OPENAI_API_KEY)  # ✅ Updated API format
 
 # Function to extract text from a PDF file
